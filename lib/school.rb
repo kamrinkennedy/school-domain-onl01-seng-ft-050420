@@ -1,5 +1,5 @@
 class School
-  attr_accessor :name, :roster
+  attr_accessor :name, #:roster
   
     # Initialize with a name and an empty roster
   def initialize(name)
@@ -17,5 +17,7 @@ class School
   def grade(level)
     return @roster[level]
   end
+  
+    # 
   
 end
