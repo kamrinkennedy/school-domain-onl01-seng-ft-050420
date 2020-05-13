@@ -13,5 +13,9 @@ class School
     @roster[grade] ? @roster[grade] << name : @roster[grade] = [name]
   end
   
+    # Take in a grade argument and return all students in that grade
+  def grade(level)
+    return @roster[level]
+  end
   
 end
