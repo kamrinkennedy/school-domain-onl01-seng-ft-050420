@@ -21,7 +21,7 @@ class School
     # Get sorted list of all students alphabetically
   def sort
     @roster.map do |grade, students|
-      grade[students].sort
+      grade[students.sort]
     end
   end
   
