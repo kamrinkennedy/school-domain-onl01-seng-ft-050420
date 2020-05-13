@@ -1,5 +1,5 @@
 class School
-  attr_accessor :name, #:roster
+  attr_accessor :name, :roster
   
     # Initialize with a name and an empty roster
   def initialize(name)
@@ -18,6 +18,6 @@ class School
     return @roster[level]
   end
   
-    # 
+    # Get sorted list of all students 
   
 end
