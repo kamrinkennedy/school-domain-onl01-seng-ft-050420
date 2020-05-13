@@ -20,7 +20,7 @@ class School
   
     # Get sorted list of all students alphabetically
   def sort
-    @roster.map {|grade, students| [grade, students.sort.to_sym]}.to_h
+    @roster.map {|grade, students| [grade, students.sort.to_a]}.to_h
   end
   
 end
