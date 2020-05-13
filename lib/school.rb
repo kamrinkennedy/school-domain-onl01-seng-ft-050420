@@ -20,7 +20,8 @@ class School
   
     # Get sorted list of all students alphabetically
   def sort
-    
+    @roster.each {|grade, students| students.sort!}
+    @roster
   end
   
 end
